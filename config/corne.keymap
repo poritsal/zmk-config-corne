@@ -142,10 +142,10 @@
 
         num {
             bindings = <
-&trans  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&trans  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans     &trans     &trans    &trans    &trans
-                           &kp DOT  &kp N0  &kp MINUS    &trans  &trans     &trans
+&trans         &kp LBKT      &kp RBKT  &kp MINUS  &kp EQUAL  &trans    &trans  &trans         &trans         &trans        &trans        &trans
+&kp SEMICOLON  &kp NUMBER_1  &kp N2    &kp N3     &kp N4     &kp N5    &kp N6  &hmr RSHFT N7  &hmr RCTRL N8  &hmr RALT N9  &hmr RGUI N0  &kp SQT
+&trans         &kp GRAVE     &kp DOT   &kp BSLH   &kp FSLH   &trans    &trans  &trans         &trans         &trans        &trans        &trans
+                                       &trans     &trans     &trans    &trans  &trans         &trans
             >;
         };
 
